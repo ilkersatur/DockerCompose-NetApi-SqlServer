@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2816EA90-65B1-4943-AFD8-EB726E98FC85}|docker-compose.dcproj|c:\\users\\ilkers\\desktop\\dockercompose-netapi-sqlserver\\dockercompose\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2816EA90-65B1-4943-AFD8-EB726E98FC85}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791131F6-DB3B-4FD1-96BC-7799F65650C6}|DockerCompose\\DockerCompose.csproj|c:\\users\\ilkers\\desktop\\dockercompose-netapi-sqlserver\\dockercompose\\dockercompose\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{791131F6-DB3B-4FD1-96BC-7799F65650C6}|DockerCompose\\DockerCompose.csproj|solutionrelative:dockercompose\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791131F6-DB3B-4FD1-96BC-7799F65650C6}|DockerCompose\\DockerCompose.csproj|c:\\users\\ilkers\\desktop\\dockercompose-netapi-sqlserver\\dockercompose\\dockercompose\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{791131F6-DB3B-4FD1-96BC-7799F65650C6}|DockerCompose\\DockerCompose.csproj|solutionrelative:dockercompose\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD5CFAF-CFFF-4A76-9E6B-9C4DE37F7760}|Solution Items{DBD5CFAF-CFFF-4A76-9E6B-9C4DE37F7760}|C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\Note.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DBD5CFAF-CFFF-4A76-9E6B-9C4DE37F7760}|Solution Items{DBD5CFAF-CFFF-4A76-9E6B-9C4DE37F7760}|solutionrelative:Note.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{791131F6-DB3B-4FD1-96BC-7799F65650C6}|DockerCompose\\DockerCompose.csproj|c:\\users\\ilkers\\desktop\\dockercompose-netapi-sqlserver\\dockercompose\\dockercompose\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{791131F6-DB3B-4FD1-96BC-7799F65650C6}|DockerCompose\\DockerCompose.csproj|solutionrelative:dockercompose\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-12-22T16:04:47.707Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\DockerCompose\\Program.cs",
+              "RelativeDocumentMoniker": "DockerCompose\\Program.cs",
+              "ToolTip": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\DockerCompose\\Program.cs",
+              "RelativeToolTip": "DockerCompose\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAgwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:55:25.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\DockerCompose\\Dockerfile",
+              "RelativeDocumentMoniker": "DockerCompose\\Dockerfile",
+              "ToolTip": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\DockerCompose\\Dockerfile",
+              "RelativeToolTip": "DockerCompose\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-22T16:41:31.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\DockerCompose\\appsettings.json",
+              "RelativeDocumentMoniker": "DockerCompose\\appsettings.json",
+              "ToolTip": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\DockerCompose\\appsettings.json",
+              "RelativeToolTip": "DockerCompose\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-22T16:21:43.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Note.txt",
+              "DocumentMoniker": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\Note.txt",
+              "RelativeDocumentMoniker": "Note.txt",
+              "ToolTip": "C:\\Users\\ilkers\\Desktop\\DockerCompose-NetApi-SqlServer\\DockerCompose\\Note.txt",
+              "RelativeToolTip": "Note.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-22T16:07:44.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

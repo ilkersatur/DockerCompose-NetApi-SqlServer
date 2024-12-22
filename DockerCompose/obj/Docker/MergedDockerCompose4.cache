@@ -1,0 +1,68 @@
+name: dockercompose9201524150406753982
+services:
+  dockercompose:
+    build:
+      context: C:\Users\ilkers\Desktop\DockerCompose-NetApi-SqlServer\DockerCompose\DockerCompose
+      dockerfile: Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    networks:
+      productnetwork: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        published: "8081"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    restart: on-failure
+    volumes:
+      - type: bind
+        source: C:\Users\ilkers\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\ilkers\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Password12345!
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      productnetwork: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "1433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqlvolume
+        target: /var/opt/mssql
+        volume: {}
+networks:
+  productnetwork:
+    name: dockercompose9201524150406753982_productnetwork
+volumes:
+  sqlvolume:
+    name: dockercompose9201524150406753982_sqlvolume
